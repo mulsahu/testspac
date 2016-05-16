@@ -9,7 +9,7 @@
   "fields":{
     "siteName": "##www.overstock.com",
     "title": "//span[contains(@class,'pro-name')]",
-    "category": "##Electronics",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class,'img-middle')]//img/@src",
     "reviewNum": "//span[contains(@class,'reviewcount')] !! ([0-9]+)",
     "dealPrice": "//span[contains(@class,'you-save')]//strong !! ([0-9]*\\.?[0-9]+)",
