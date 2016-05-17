@@ -2,7 +2,7 @@
   "name":"crawl dealcatcher.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.dealcatcher.com/filter/1?deal_type%5B%5D=product_deals&category%5B%5D=2"
+    "http://www.dealcatcher.com/filter/1?deal_type%5B%5D=product_deals&category%5B%5D=2 !! category=Deals"
   ],
   "list_xpath":"//article[contains(@class, 'deal-enclosure')]",
   "fields":{
