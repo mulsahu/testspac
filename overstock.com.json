@@ -2,8 +2,7 @@
   "name":"crawl www.overstock.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=TV-Video",
-    "http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=Cell-Phones-Accessories"
+    "http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=TV-Video | listXPath=xpath"
   ],
   "list_xpath":"//ul[contains(@id,'result-products')]//li[contains(@class,'product')]//div[contains(@class,'product-content')]",
   "fields":{
