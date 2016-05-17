@@ -18,6 +18,6 @@
     "regularPrice": "//div[contains(@class, 'deal-msrp')] !! \\$([0-9]+)",
     "dealPrice": "//div[contains(@class, 'deal-price')] !! \\$([0-9]+)",
     "imageUrl": "//figure[contains(@class, 'deal-image')]//img/@data-original",
-    "postTime" : "//div[contains(@class,'deal-meta')]//time"
+    "postTime" : "//div[contains(@class,'deal-meta')]//time/@datetime"
   }
 }
