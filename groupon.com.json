@@ -2,7 +2,7 @@
   "name":"crawl groupon.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "https://www.groupon.com/goods/electronics"
+    "https://www.groupon.com/goods/electronics !! category= Electronics"
   ],
   "list_xpath":"//figure[contains(@class, 'deal-card')]",
   "fields":{
