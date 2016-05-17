@@ -1,5 +1,6 @@
 {
   "specs": [
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/overstock.com.json"
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/overstock.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json"
            ]
 }
