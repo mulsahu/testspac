@@ -1,5 +1,8 @@
 {
   "specs": [
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/groupon.com.json"
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/groupon.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.electronics.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/overstock.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json"
            ]
 }
