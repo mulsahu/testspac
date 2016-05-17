@@ -14,6 +14,6 @@
     "merchant": "//span[contains(@class, 'go-get-it-at')]",
     "detailUrl": "//h3[contains(@itemprop, 'name')]//a/@href",
     "reviewNum": "//li[contains(@class, 'chat-pack')]//span",
-    "postTime" : "//ul[contains(@class,'post-information')]//li[contains(@class,'posted-time')]"
+    "postTime" : "//ul[contains(@class,'post-information')]//li[contains(@class,'posted-time')]/@data-created-at"
   }
 }
