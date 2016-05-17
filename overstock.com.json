@@ -2,7 +2,19 @@
   "name":"crawl www.overstock.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=Televisions | listXPath=xpath"
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=COMPUTER & TEBLETS",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=TV",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=HOME THEATER & AUDIO",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=CAMERAS",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=COMPUTER HARDWARE",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=HOME AUTOMATION",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=WEARABLE TECHNOLOGY",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=GPS NAVIGATION",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=PRINTER AND SCANNER",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=MONOITOR AND DISPLAYS",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=CELL PHONES",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=NEW ARRIVALS",
+	"http://www.overstock.com/Electronics/Televisions/Deal-Electronics,/link,/2171/cat.html !! category=FEATURED SALES"
   ],
   "list_xpath":"//ul[contains(@id,'result-products')]//li[contains(@class,'product')]//div[contains(@class,'product-content')]",
   "fields":{
