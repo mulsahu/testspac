@@ -13,6 +13,7 @@
     "desc": "//p[contains(@itemprop, 'description')]",
     "merchant": "//span[contains(@class, 'go-get-it-at')]",
     "detailUrl": "//h3[contains(@itemprop, 'name')]//a/@href",
-    "reviewNum": "//li[contains(@class, 'chat-pack')]//span"
+    "reviewNum": "//li[contains(@class, 'chat-pack')]//span",
+    "postTime" : "//ul[contains(@class,'post-information')]//li[contains(@class,'posted-time')]"
   }
 }
