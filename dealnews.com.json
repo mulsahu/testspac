@@ -13,6 +13,7 @@
     "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
     "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
     "salePitch": "//small[contains(@class,'content-sub-call-out')]",
-    "redirUrl": "//div[contains(@class,'content-specs')]//a/@href"
+    "redirUrl": "//div[contains(@class,'content-specs')]//a/@href",
+    "postTime":"//div[contains(@class,'content-date')]//time"
   }
 }
