@@ -2,7 +2,7 @@
   "name":"crawl dealnews.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.dealnews.com/c142/Electronics/?p=1"
+    "http://www.dealnews.com/c142/Electronics/?p=1 | !! category=TV"
   ],
   "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
