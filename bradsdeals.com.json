@@ -2,7 +2,7 @@
   "name":"crawl bradsdeals.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.bradsdeals.com/categories/electronics !! category= Electronics"
+    "http://www.bradsdeals.com/categories/electronics/deals"
   ],
   "list_xpath":"//ul[contains(@class, 'reset')]//li[contains(@class, 'block deal')]",
   "fields":{
