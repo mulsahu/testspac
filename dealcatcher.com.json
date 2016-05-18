@@ -7,7 +7,7 @@
   ],
   "list_xpath":"//article[contains(@class, 'deal-enclosure')]",
   "fields":{
-    "siteName": "##dealcatcher.com",
+    "siteName": "##www.dealcatcher.com",
     "title": "//h3//a",
     "category": "##Electronics Coupons and Deals",
     "imageUrl": "//div[contains(@class, 'image-block')]/img/@src",
