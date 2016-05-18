@@ -2,7 +2,9 @@
   "name":"crawl bensbargains.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://bensbargains.com/categories/computers-104/10/"
+    "http://bensbargains.com/categories/computers-104/##1-7## !! category= Computer",
+	"http://bensbargains.com/categories/computer-parts-116/##1-2## !! category= Computer-parts",
+	"http://bensbargains.com/categories/electronics-105/##1-13## !! category= Electronics"
   ],
   "list_xpath":"//article[contains(@id, 'deal')]",
   "fields":{
