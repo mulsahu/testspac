@@ -2,12 +2,22 @@
   "name":"crawl newegg.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.newegg.com/Computer-Systems/Store !! category= Computer Systems",
-	"http://www.newegg.com/Components/Store !! category= Components",
-	"http://www.newegg.com/Electronics/Store !! category= Electronics",
-	"http://www.newegg.com/Gaming/Store !! category= Gaming",
-	"http://www.newegg.com/Networking/Store/ID-889 !! category= Networking",
-	"http://www.newegg.com/Software-Services/Store !! category= Software Services"
+    "http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=228&Page=##1-2## !! category= Desktop-computer",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=223&Page=##1-2## !! category= Laptop / Notebook",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=363 !! category= Gaming-Laptop",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=259&Page=##1-2## !! category= 2 in 1 Laptops / Ultrabooks ",
+	"http://www.newegg.com/Tablets/Category/ID-164?Tid=13680 !! category= Tablets",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=29 !! category= computer-input device",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=234 !! category= Keyboards & Mice",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=37 !! category= Headsets, Speakers, & Soundcards",
+	"www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=19 !! category= Monitors",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=33 !! category= Printers / Scanners & Supplies",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=1 !! category= Computer Accessories",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=3&Category=26 !! category= Laptop Accessories",
+	"http://www.newegg.com/Laptop-Cases-Bags/SubCategory/ID-482/Page-##1-100##?Tid=168885 !! category= Laptop Cases & Bags",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=1&Page=##1-2## !! category= Components",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=10 !! category= Electronics",
+	"http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=889&Page=##1-2## !! category= Networking"
   ],
   "list_xpath":"//div[contains(@class,'productList')]//div[contains(@class,'version600')]//div[contains(@class,'itemCell')]",
   "fields":{
