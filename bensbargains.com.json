@@ -8,7 +8,7 @@
   ],
   "list_xpath":"//article[contains(@id, 'deal')]",
   "fields":{
-    "siteName": "##bensbargains.com",
+    "siteName": "##www.bensbargains.com",
     "title": "//h2[contains(@class, 'deal-title')]/a !! (.+) at",
     "detailUrl": "//h2[contains(@class, 'deal-title')]/a/@href",
     "category": "##Computer",
