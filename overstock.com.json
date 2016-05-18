@@ -23,6 +23,7 @@
     "imageUrl": "//div[contains(@class,'img-middle')]//img/@src",
     "reviewNum": "//span[contains(@class,'reviewcount')] !! ([0-9]+)",
     "dealPrice": "//span[contains(@class,'you-save')]//strong !! ([0-9]*\\.?[0-9]+)",
-    "detailUrl": "//a[contains(@class,'pro-thumb')]/@href"
+    "detailUrl": "//a[contains(@class,'pro-thumb')]/@href",
+    "regularPrice":"//span[contains(@class,'reference-price')]"
   }
 }
