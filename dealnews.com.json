@@ -6,7 +6,7 @@
   ],
   "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
-    "siteName": "##dealnews.com",
+    "siteName": "##www.dealnews.com",
     "title": "//h3[contains(@class,'headline-xlarge')]//a",
     "category": "##Electronics",
     "imageUrl": "//div[contains(@class,'content-image')]//a//img/@data-src",
