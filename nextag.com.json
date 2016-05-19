@@ -2,7 +2,7 @@
   "name":"crawl www.nextag.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-  "http://www.nextag.com/Desktop-Computers--zz300413zB4z5---html !! category=Desktop Computers",
+  	"http://www.nextag.com/Desktop-Computers--zz300413zB4z5---html !! category=Desktop Computers",
 	"http://www.nextag.com/Tablet-Computers--zz300314zB4z5---html !! category= Tablet Computers",
 	"http://www.nextag.com/Computer-Servers--zz300313zB4z5---html !! category= Computer Servers",
 	"http://www.nextag.com/Computer-Accessories--zz300151zB4z5---html !! category= Computer Accessories",
