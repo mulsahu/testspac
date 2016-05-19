@@ -11,7 +11,7 @@
     "siteName": "##www.bensbargains.com",
     "title": "//h2[contains(@class, 'deal-title')]/a !! (.+) at",
     "detailUrl": "//h2[contains(@class, 'deal-title')]/a/@href",
-    "category": "##Computer",
+    "category": "$$category",
     "score": "//div[contains(@class, 'deal-hotness-meter')]/@style !! width:([0-9]+)px;",
     "reviewNum": "//div[contains(@class, 'deal-comment-replies')]/span",
     "merchant": "//a[contains(@class, 'deal-merchant')]",
