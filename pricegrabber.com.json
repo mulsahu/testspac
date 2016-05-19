@@ -11,7 +11,8 @@
 	"http://www.pricegrabber.com/computers/scanners/p-23/ !! category= scanners",
 	"http://www.pricegrabber.com/electronics/plasma-lcd-televisions/p-197/ !! category= plasma-lcd-televisions",
 	"http://www.pricegrabber.com/cameras/digital/p-48/ !! category= cameras-digital",
-	"http://www.pricegrabber.com/computers/speakers/p-77/ !! category= speakers"
+	"http://www.pricegrabber.com/computers/speakers/p-77/ !! category= speakers",
+	"http://www.pricegrabber.com/computers/mice-trackballs/p-51/ !! category= mice-trackballs"
   ],
   "list_xpath":"//div[contains(@id,'product_results')]//div[contains(@class,'product')]",
   "fields":{
