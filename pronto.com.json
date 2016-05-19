@@ -2,7 +2,8 @@
   "name":"crawl www.pronto.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.pronto.com/shopping?category=2&department=1&limit=25&page=##1-50##&type=search&qsrc=340&qo=shopByDepartment !! category= Laptop"
+    "http://www.pronto.com/shopping?category=2&department=1&limit=25&page=##1-50##&type=search&qsrc=340&qo=shopByDepartment !! category= Laptop",
+    "http://www.pronto.com/shopping?category=1&department=1&limit=25&page=##1-50&type=search&qsrc=340&qo=shopByDepartment !! category= Desktop"
   ],
   "list_xpath":"//div[contains(@class,'partial-search-results-body')]//div[contains(@class,'partial-search-results-item')]",
   "fields":{
