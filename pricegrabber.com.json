@@ -2,7 +2,16 @@
   "name":"crawl www.pricegrabber.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.pricegrabber.com/computers/laptop/p-13/"
+    	"http://www.pricegrabber.com/computers/desktop/p-9/ !! category= Desktop",
+	"http://www.pricegrabber.com/computers/desktop/p-13/ !! category= Laptop",
+	"http://www.pricegrabber.com/computers/monitors/p-37/ !! category= Monitor",
+	"http://www.pricegrabber.com/computers/keyboards/p-50/ !! category= Keyboards",
+	"http://www.pricegrabber.com/computers/monitor-accessories/p-39/ !! category= monitors-accessories",
+	"http://www.pricegrabber.com/computers/printers/p-21/ !! category= printers",
+	"http://www.pricegrabber.com/computers/scanners/p-23/ !! category= scanners",
+	"http://www.pricegrabber.com/electronics/plasma-lcd-televisions/p-197/ !! category= plasma-lcd-televisions",
+	"http://www.pricegrabber.com/cameras/digital/p-48/ !! category= cameras-digital",
+	"http://www.pricegrabber.com/computers/speakers/p-77/ !! category= speakers"
   ],
   "list_xpath":"//div[contains(@id,'product_results')]//div[contains(@class,'product')]",
   "fields":{
