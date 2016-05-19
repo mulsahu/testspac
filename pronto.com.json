@@ -9,7 +9,7 @@
 	"http://www.pronto.com/shopping?category=12&department=1&limit=25&page=##1-50##&type=search&qsrc=340&qo=shopByDepartment !! category= printer and scanner",
 	"http://www.pronto.com/shopping?category=19&department=2&limit=25&page=##1-50##&type=search&qsrc=340&qo=shopByDepartment !! category= TV",
 	"http://www.pronto.com/shopping?category=30&department=2&limit=25&page=##1-50##&subCategory=327&type=search&qsrc=340&qo=shopByDepartment !! smartphones",
-	"http://www.pronto.com/shopping?category=18&department=2&limit=25&page=##1-50##&subCategory=203&type=search&qsrc=340&qo=shopByDepartment !! category= Home theater"
+	"http://www.pronto.com/shopping?category=18&department=2&limit=25&page=##1-50##&subCategory=203&type=search&qsrc=340&qo=shopByDepartment !! category= Home-Theater"
   ],
   "list_xpath":"//div[contains(@class,'partial-search-results-body')]//div[contains(@class,'partial-search-results-item')]",
   "fields":{
