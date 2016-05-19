@@ -31,6 +31,7 @@
     "merchant": "//a//img[contains(@class,'listStyleBrand')]//@alt",
     "salePitch": "//ul//li[contains(@class,'price-ship')]",
     "detailUrl": "//a[contains(@class,'itemImage')]//@href",
-    "discount": "//ul//li[contains(@class,'price-save')]//span[contains(@class,'price-save-percent')] !! ([0-9]*\\.?[0-9]+)"
+    "discount": "//ul//li[contains(@class,'price-save')]//span[contains(@class,'price-save-percent')] !! ([0-9]*\\.?[0-9]+)",
+    "reviewNum":"//a[contains(@title,'Rating')]"
   }
 }
