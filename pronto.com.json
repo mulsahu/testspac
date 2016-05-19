@@ -2,7 +2,7 @@
   "name":"crawl www.pronto.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.pronto.com/shopping?l=dir&limit=25&o=0&page=1&q=computer&type=search&qsrc=0&qo=homepageSearchBox"
+    "http://www.pronto.com/shopping?category=2&department=1&limit=25&page=##2-100##&type=search&qsrc=340&qo=shopByDepartment"
   ],
   "list_xpath":"//div[contains(@class,'partial-search-results-body')]//div[contains(@class,'partial-search-results-item')]",
   "fields":{
