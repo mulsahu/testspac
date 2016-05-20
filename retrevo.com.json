@@ -2,7 +2,12 @@
   "name":"crawl www.retrevo.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.retrevo.com/samples/Laptop.html"
+    "http://www.retrevo.com/samples/Laptop.html !! category= Laptop",
+	"http://www.retrevo.com/samples/TV.html !! category= TV",
+	"http://www.retrevo.com/samples/Digital-Camera.html !! category= Cameras",
+	"http://www.retrevo.com/samples/Camcorders.html !! category= Camcorders",
+	"http://www.retrevo.com/samples/Tablet.html !! category= Tablet",
+	"http://www.retrevo.com/samples/Cell-Phone.html !! category= !! Cell-Phone"
   ],
   "list_xpath":"//div[contains(@id,'seoReviews')]//div[contains(@class,'datasection')]//div[contains(@class,'productDetails')]",
   "fields":{
