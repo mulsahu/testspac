@@ -2,7 +2,7 @@
   "name":"crawl slickdeals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    	"http://slickdeals.net/deals/tv/?page=##3-20##&pp=24 !! category= TV| listXPath=//div[contains(@class, 'fpGridBox') and contains(@class, 'grid')]"
+    	"http://slickdeals.net/deals/tv/?page=##1-20##&pp=24 !! category= TV| listXPath=//div[contains(@class, 'fpGridBox') and contains(@class, 'grid')]"
   ],
   "list_xpath":"//div[contains(@class, 'fpGridBox') and contains(@class, 'grid') and contains(@class, 'frontpage')]",
   "fields":{
