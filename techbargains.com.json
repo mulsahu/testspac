@@ -2,7 +2,8 @@
   "name":"crawl techbargains.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.techbargains.com/?page=1"
+    "http://www.techbargains.com/category/359/computers/laptops !! category= Laptop",
+  	"http://www.techbargains.com/category/357/computers/desktops !! category= Desktop"
   ],
   "list_xpath":"//section[contains(@class,'deal-feed')]//div[contains(@class,'deal_wrapper')]",
   "fields":{
