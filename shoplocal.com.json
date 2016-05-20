@@ -2,7 +2,16 @@
   "name":"crawl www.shoplocal.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.shoplocal.com/deals/electronics?categories=533431"
+    "http://www.shoplocal.com/deals/computer-systems?categories=533593&brands= !! category= computer",
+	"http://www.shoplocal.com/deals/monitors-audio-video?categories=533595&brands= !! category= Monitor & Audio",
+	"http://www.shoplocal.com/deals/printers-scanners?categories=533596&brands= !! category= Printers & Scanner",
+	"http://www.shoplocal.com/deals/software?categories=533598&brands= !! category= software",
+	"http://www.shoplocal.com/deals/network-products?categories=533599&brands= !! category= network-products",
+	"http://www.shoplocal.com/deals/computer-memory-data-storage-systems?categories=533594&brands= !! category= storage-systems",
+	"http://www.shoplocal.com/deals/computer-components-peripherals?categories=533597&brands= !! category= components-peripherals",
+	"http://www.shoplocal.com/deals/televisions?categories=533557&brands= !! category= TV",
+	"http://www.shoplocal.com/deals/telephones?categories=601293&brands= !!category= Telephones",
+	"http://www.shoplocal.com/deals/home-audio-and-theater?categories=533553&brands= !!category= Audio & Home-theater"
   ],
   "list_xpath":"//section[contains(@class,'sl_dealbrowse')]//div[contains(@class,'sl_deal_tile')]",
   "fields":{
