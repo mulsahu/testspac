@@ -9,7 +9,7 @@
     "siteName": "##www.fatwallet.com",
     "title": "//div[contains(@class,'offer-cell')]//span[contains(@class,'offer-details-url')]",
     "category": "##Electronics and Computers",
-    "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@data-original | //div[contains(@class, 'imageContainer')]//img/@src",
+    "imageUrl": "//div[contains(@class,'offer-image')]//img/@data-original",
     "regularPrice": "//div[contains(@class,'offer-cell')]//span[contains(@class,'was-price')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//div[contains(@class,'offer-cell')]//span[contains(@class,'current-price')]//span[contains(@class,'price')] !! ([0-9]*\\.?[0-9]+)",
     "merchant": "//div[contains(@class,'top')]//@alt",
