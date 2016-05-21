@@ -2,8 +2,7 @@
   "name":"crawl dealnews.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://dealnews.com/c39/Computers/ !! category= computers",
-	"http://dealnews.com/c41/Computers/Apple-Computers/ !! category= Apple Computers",
+    	"http://dealnews.com/c41/Computers/Apple-Computers/ !! category= Apple Computers",
 	"http://dealnews.com/c159/Electronics/TVs/ !! category= TV",
 	"http://dealnews.com/c148/Electronics/Audio-Components/Home-Theater-Systems/ !! category= Home-Theater",
 	"http://dealnews.com/c491/Electronics/Phones-Cell-Phones/Apple-iPhones/ !! category= Apple iPhones",
