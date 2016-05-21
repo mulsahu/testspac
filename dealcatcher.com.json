@@ -9,7 +9,7 @@
   "fields":{
     "siteName": "##www.dealcatcher.com",
     "title": "//h3//a",
-    "category": "##Electronics Coupons and Deals",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class, 'image-block')]/img/@src",
     "desc": "//div[contains(@class, 'description')]",
     "regularPrice": "//span[contains(@class, 'retail-price')] !! ([0-9]*\\.?[0-9]+)",
