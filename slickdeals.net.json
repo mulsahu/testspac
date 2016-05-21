@@ -11,7 +11,7 @@
     "siteName": "##slickdeals.net",
     "title": "//a[contains(@class, 'itemTitle')]",
     "category": "##Electronic",
-    "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@data-original | //div[contains(@class, 'imageContainer')]//img/@src",
+    "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@src",
     "dealPrice": "//div[contains(@class, 'itemPrice')] !! \\$([0-9\\.]+)",
     "merchant": "//a[contains(@class, 'itemStore')]",
     "salePitch": "//div[contains(@class, 'priceInfo')]",
