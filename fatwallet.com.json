@@ -2,7 +2,7 @@
   "name":"crawl fatwallet.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "https://www.fatwallet.com/electronics-computer-deals/?page=##1-5## !! category= electronics-computer"
+    "https://www.fatwallet.com/electronics-computer-deals/?page=##1-20## !! category= electronics-computer"
   ],
   "list_xpath":"//div[contains(@class,'standardPageSection')][1]//ul[contains(@class,'offer-list-container')]//li",
   "fields":{
