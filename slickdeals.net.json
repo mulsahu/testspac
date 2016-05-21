@@ -8,7 +8,7 @@
   ],
   "list_xpath":"//div[contains(@class, 'fpGridBox') and contains(@class, 'grid') and contains(@class, 'frontpage')]",
   "fields":{
-    "siteName": "##slickdeals.net",
+    "siteName": "##www.slickdeals.net",
     "title": "//a[contains(@class, 'itemTitle')]",
     "category": "##Electronic",
     "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@src",
