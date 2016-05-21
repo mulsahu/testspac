@@ -2,7 +2,7 @@
   "name":"crawl www.nextag.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-  		"http://www.nextag.com/Desktop-Computers--zz300413zB4z5---html !! category=Desktop Computers"
+  		"http://www.nextag.com/Desktop-Computers--zz300413zB4z5---html !! category=Desktop Computers | //div[contains(@class,'sr-result-container')]//ul[contains(@id,'search_results_content')]//li[contains(@class,'sr-list-li')]"
   ],
   "list_xpath":"//div[contains(@class,'dealsContainer')]//ul[contains(@id,'dealItems')]//li[contains(@class,'dealItem')]",
   "fields":{
