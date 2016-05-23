@@ -18,7 +18,7 @@
   "fields":{
     "siteName": "##www.pricegrabber.com",
     "title": "//div[contains(@class,'details')]//h3",
-    "category": "##computer",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class,'prd_img')]//img/@src",
     "dealPrice": "//div[contains(@class,'ctaPriceContainer')]//a !! ([0-9]*\\.?[0-9]+)",
 	"merchant": "//div[contains(@class,'review_merchant_container')]//a/@title",
