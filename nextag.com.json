@@ -8,7 +8,7 @@
   "fields":{
     "siteName": "##www.nextag.com",
     "title": "//div[contains(@class,'dealItemTitle')]//a/@title",
-    "category": "##Deals",
+    "category": "$$category",
     "imageUrl": "//a[contains(@class,'dealItemImgContainer')]//img/@src",
     "regularPrice": "//div[contains(@class,'dealItemPrice')]//a//span[contains(@class,'truePrice')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//div[contains(@class,'dealItemPrice')]//a//span[contains(@class,'priceTxt')] !! ([0-9]*\\.?[0-9]+)",
