@@ -14,7 +14,7 @@
   "fields":{
     "siteName": "##www.dealnews.com",
     "title": "//h3[contains(@class,'headline-xlarge')]//a",
-    "category": "##Electronics",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class,'content-image')]//a//img/@data-src",
     "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
     "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
