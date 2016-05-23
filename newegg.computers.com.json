@@ -23,7 +23,7 @@
   "fields":{
     "siteName": "##www.newegg.com",
     "title": "//span[contains(@class,'itemDescription')][1]",
-    "category": "##Computer Systems",
+    "category": "$$category",
     "imageUrl": "//a[contains(@class,'itemImage')]//img/@src",
     "desc": "//ul[contains(@class,'featureList')]",
     "regularPrice": "//ul//li[contains(@class,'price-was')] !! ([0-9]*\\.?[0-9]+)",
