@@ -9,7 +9,7 @@
 	"http://www.retrevo.com/samples/Tablet.html !! category= Tablet",
 	"http://www.retrevo.com/samples/Cell-Phone.html !! category= !! Cell-Phone"
   ],
-  "list_xpath":"//div[contains(@id,'seoReviews')]//div[contains(@class,'productDetails')]//div[contains(@class,'plistDetails')]",
+  "list_xpath":"//div[contains(@class,'productDetails')]//div[contains(@class,'plistDetails')]//a//img/@src",
   "fields":{
     "siteName": "##www.retrevo.com",
     "title": "//table//td[contains(@valign,'top')]//div[contains(@class,'productName')]//a",
