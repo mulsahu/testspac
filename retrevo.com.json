@@ -13,7 +13,7 @@
   "fields":{
     "siteName": "##www.retrevo.com",
     "title": "//table//td[contains(@valign,'top')]//div[contains(@class,'productName')]//a",
-    "category": "##laptop",
+    "category": "$$category",
     "imageUrl": "//table//td[contains(@valign,'middle')]//a//img/@src",
     "desc": "//table//td[contains(@valign,'top')]//div[contains(@class,'specs')]",
    "detailUrl": "//table//td[contains(@valign,'middle')]//a/@href"
