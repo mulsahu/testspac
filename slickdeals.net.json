@@ -10,7 +10,7 @@
   "fields":{
     "siteName": "##www.slickdeals.net",
     "title": "//a[contains(@class, 'itemTitle')]",
-    "category": "##Electronic",
+    "category":"$$category",
     "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@src",
     "dealPrice": "//div[contains(@class, 'itemPrice')] !! \\$([0-9\\.]+)",
     "merchant": "//a[contains(@class, 'itemStore')]",
