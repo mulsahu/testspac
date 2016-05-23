@@ -8,7 +8,7 @@
   "fields":{
     "siteName": "##www.bradsdeals.com",
     "title": "//h3[contains(@itemprop, 'name')]",
-    "category": ""$$category"",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class, 'product ')]//img/@src",
     "desc": "//p[contains(@itemprop, 'description')]",
     "merchant": "//span[contains(@class, 'go-get-it-at')]",
