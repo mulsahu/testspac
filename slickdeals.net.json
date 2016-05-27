@@ -13,6 +13,7 @@
     "dealPrice": "//div[contains(@class, 'itemPrice')] !! \\$([0-9\\.]+)",
     "merchant": "//a[contains(@class, 'itemStore')]",
     "salePitch": "//div[contains(@class, 'priceInfo')]",
-    "detailUrl": "//a[contains(@class, 'itemTitle')]/@href"
+    "detailUrl": "//a[contains(@class, 'itemTitle')]/@href",
+    "likeNum":"//span[contains(@class, 'likesLabel')]//span[contains(@class, 'count')]"
   }
 } 
