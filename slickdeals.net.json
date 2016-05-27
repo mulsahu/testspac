@@ -2,15 +2,13 @@
   "name":"crawl slickdeals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-      "http://slickdeals.net/deals/computers/?page=##1-15## !! category= computer | listXPath=//div[contains(@class, 'fpGridBox') and contains(@class, 'grid')]",
-    	"http://slickdeals.net/deals/tv/?page=##1-30## !! category= TV | listXPath=//div[contains(@class, 'fpGridBox') and contains(@class, 'grid')]",
-    	"http://slickdeals.net/deals/photo/?page=##1-20## !! category= camaras | listXPath=//div[contains(@class, 'fpGridBox') and contains(@class, 'grid')]"
+      "http://slickdeals.net/?page=##1-15##
   ],
   "list_xpath":"//div[contains(@class, 'fpGridBox') and contains(@class, 'grid') and contains(@class, 'frontpage')]",
   "fields":{
     "siteName": "##www.slickdeals.net",
     "title": "//a[contains(@class, 'itemTitle')]",
-    "category":"$$category",
+    "category":"##Deals",
     "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@src",
     "dealPrice": "//div[contains(@class, 'itemPrice')] !! \\$([0-9\\.]+)",
     "merchant": "//a[contains(@class, 'itemStore')]",
