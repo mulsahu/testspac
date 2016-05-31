@@ -2,8 +2,8 @@
   "name":"crawl dealcatcher.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "https://www.dealcatcher.com/computers-office !! category= Computers and Office",
-	"https://www.dealcatcher.com/electronics  !! category= Electronics"
+    "https://www.dealcatcher.com/computers-office !! category=Computers and Office",
+	"https://www.dealcatcher.com/electronics  !! category=Electronics"
   ],
   "list_xpath":"//article[contains(@class, 'deal-enclosure')]",
   "fields":{
