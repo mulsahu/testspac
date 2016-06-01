@@ -15,6 +15,7 @@
     "dealPrice": "//figcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'discount-price')] !! ([0-9]*\\.?[0-9]+)",
     "detailUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
     "reviewNum": "//div[contains(@class, 'rating-count')]  !! ([0-9]+)",
+    "score":"//ul[contains(@class, 'rating')]/@data-bhc !! float",
     "saleNum":"//p[contains(@class, 'quantity-bought')] !! ([,0-9]+)"
   }
 }
