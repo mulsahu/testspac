@@ -24,6 +24,7 @@
     "reviewNum": "//span[contains(@class,'reviewcount')] !! ([0-9]+)",
     "dealPrice": "//span[contains(@class,'you-save')]//strong !! ([0-9]*\\.?[0-9]+)",
     "detailUrl": "//a[contains(@class,'pro-thumb')]/@href",
+    "score" : "//span[contains(@class,'review')]//i !! ([0-9]*\\.?[0-9]+)",
     "regularPrice":"//span[contains(@class,'reference-price')]"
   }
 }
