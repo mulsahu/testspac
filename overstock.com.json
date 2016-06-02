@@ -2,7 +2,7 @@
   "name":"crawl www.overstock.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-	"http://www.overstock.com/Electronics/Computers-Tablets/473/dept.html?TID=TN:ELEC:Comp !! category=Computers and Teblets",
+	"http://www.overstock.com/Electronics/Computers-Tablets/473/dept.html?TID=TN:ELEC:Comp !! category=Computers and Tablets",
 	"http://www.overstock.com/Electronics/Televisions/2171/cat.html?TID=TN:ELEC:TvVideo !! category=TV",
 	"http://www.overstock.com/Electronics/Home-Theater-Audio/5/dept.html?TID=TN:ELEC:HomeTheaterAudio !! category=Home Theater and Audio",
 	"http://www.overstock.com/Electronics/Cameras-Camcorders/6/dept.html?TID=TN:ELEC:CameraCamcord !! category=Cameras",
