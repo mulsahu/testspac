@@ -1,3 +1,5 @@
 {
-  "specs": ["https://raw.githubusercontent.com/mulsahu/testspac/master/deals/dealsplus.com.forum.geek.json"]
+  "specs": [
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/deals/woot.com.forum.json"
+           ]
 }
