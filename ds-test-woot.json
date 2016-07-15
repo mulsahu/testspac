@@ -1,5 +1,4 @@
+
 {
-specs: [
-"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/woot.com.forum.json"
-]
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/dealsplus.com.forum.geek.json"]
 }
