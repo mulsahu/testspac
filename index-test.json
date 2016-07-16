@@ -1,5 +1,7 @@
 {
   "specs": [
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/deals/slickdeals.net.forum.geek.json"
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/deals/slickdeals.net.forum.geek.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/discover/woot.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/ds-delplust-index.json"
            ]
 }
