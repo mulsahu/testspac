@@ -7,7 +7,7 @@
   "fields":{
     "siteName": "##www.fatwallet.com",
     "title": "h1[class=topic-title] a",
-    "finalUrl": "a[id~=cta-button]/@href"
+    "finalUrl": "a[id~=cta-button]/@href",
     "numOfLike": "div[id=number]",
     "numOfReview": "div[id=views] span"
   }
