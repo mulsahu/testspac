@@ -6,12 +6,14 @@
   ],
   "fields":{
     "siteName": "##www.dealsplus.com",
+    "title": "h1",
     "category": "$$category",
-    "title": "section[class=info] h1",
-    "finalUrl": "a[class=lightPurpleButton]/@href",
-    "numOfLike": "div[class=voteUpCount]",
+    "dealPrice": "div[class=dealPrice]",
+    "finalUrl": "div[id=mainImage] a[href~=/go/rb]/@href",
+    "numOfLike": "div[class=voteUpCount]/@data-vote-up-count",
+    "desc": "div[class=howToContent]",
     "isFree": "div[class=dealPrice]:contains(FREE)",
-    "imageUrl": "div[id=mainImage] a img/src"
+    "imageUrl": "div[id=mainImage] img/src"
   }
 }
 
