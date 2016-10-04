@@ -6,11 +6,12 @@
   ],
   "fields":{
     "siteName": "##www.dealsplus.com",
+    "category": "$$category",
     "title": "section[class=info] h1",
     "finalUrl": "a[class=lightPurpleButton]/@href",
     "numOfLike": "div[class=voteUpCount]",
-	"isFree": "div[class=dealPrice]:contains(FREE)",
-	"imageUrl": "div[id=mainImage] a img/src"
+    "isFree": "div[class=dealPrice]:contains(FREE)",
+    "imageUrl": "div[id=mainImage] a img/src"
   }
 }
 
