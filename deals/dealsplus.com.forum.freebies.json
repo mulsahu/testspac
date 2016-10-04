@@ -2,7 +2,7 @@
   "name":"fatwallet.com forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "index:https://www.dealsplus.com/freebies?createdBy=1475564775&i=s-1&page=##1-5## !! urlPath=div[class=item] div[class=itemTitle] a/@href"
+    "index:https://www.dealsplus.com/freebies?createdBy=1475564775&i=s-1&page=##1-5## !! urlPath=div[class~=itemTitle] a/@href"
   ],
   "fields":{
     "siteName": "##www.dealsplus.com",
