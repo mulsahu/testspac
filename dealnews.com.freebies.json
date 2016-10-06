@@ -4,15 +4,14 @@
   "urls":[
     	"http://dealnews.com/search.html?o=price&search=free !! category= Freebies"
   ],
-  "list_xpath":"div[class=content-view]",
+   "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
     "siteName": "##www.dealnews.com",
-    "title": "h3[class=headline-xlarge] a",
+    "title": "//h3[contains(@class,'headline-xlarge')]//a",
     "category": "$$category",
-    "imageUrl": "div[class=content-image] a img/@data-src",
-    "desc": "div[class=content-details] div[class=content-body]",
-    "detailUrl": "div[class=content-image] a/@href",
-    "salePitch": "small[class=content-sub-call-out]",
-    "isFree": "div[class=content-call-out]:contains(Free)"
+    "imageUrl": "//div[contains(@class,'content-image')]//a//img/@data-src",
+    "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
+    "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
+    "salePitch": "//small[contains(@class,'content-sub-call-out')]",
   }
 }
