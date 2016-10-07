@@ -1,0 +1,17 @@
+{
+  "name":"crawl reddit.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    	"https://www.reddit.com/r/freebies/ !! category= Freebies"
+  ],
+   "list_xpath":"//div[contains(@id,'siteTable')]//div[contains(@class,'thing')]",
+  "fields":{
+    "siteName": "##www.reddit.com",
+    "title": "//div[contains(@class,'entry unvoted')]//p[contains(@class,'title')]/a",
+    "category": "$$category",
+    "imageUrl": "//a[contains(@class,'thumbnail')]//img/@src",
+    "detailUrl": "//div[contains(@class,'entry unvoted')]//p[contains(@class,'title')]/a/@href",
+	"finalUrl": "//div[contains(@class,'entry unvoted')]//p[contains(@class,'title')]/a/@href",
+    "isFree": "//div[contains(@class,'entry unvoted')]//p[contains(@class,'title')]/a !! (Free|free|FREE)"
+  }
+}

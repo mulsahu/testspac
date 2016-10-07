@@ -4,7 +4,7 @@
   "urls":[
     	"http://dealnews.com/search.html?o=price&search=free !! category= Freebies"
   ],
-   "list_xpath":"//div[contains(@class,'content-view')]",
+  "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
     "siteName": "##www.dealnews.com",
     "title": "//h3[contains(@class,'headline-xlarge')]//a",
