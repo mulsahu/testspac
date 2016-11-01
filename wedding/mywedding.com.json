@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la?page=1 !! category=wedding"
+    "http://www.mywedding.com/la?page=##1-50## !! category=wedding"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
@@ -13,7 +13,7 @@
     "desc": "//div[contains(@class, 'span9')]//div[contains(@class, 'row-fluid')]//p",
     "phoneNum": "//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[2]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
-    "numOfLike":"//div[contains(@class, 'text-right')]//div[contains(@class, 'love-button-container')]//div[contains(@class, 'love-button')]//a[contains(@class, 'love-container')]//span[contains(@class, 'love-count')]",
+    "numOfLike":"//div[contains(@class, 'text-right')]//span[contains(@class, 'love-count')]",
 	"website": "//div[contains(@class, 'span3')]//p[contains(@class,'text-center')]//a[contains(@class,'vendor-link')]/@href"
   }
 }
