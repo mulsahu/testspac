@@ -14,6 +14,7 @@
     "phoneNum": "//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[2]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
     "numOfLike":"//div[contains(@class, 'text-right')]//span[contains(@class, 'love-count')]",
+	  "venue":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[contains(text(),',')]",
 	"website": "//div[contains(@class, 'span3')]//p[contains(@class,'text-center')]//a[contains(@class,'vendor-link')]/@href"
   }
 }
