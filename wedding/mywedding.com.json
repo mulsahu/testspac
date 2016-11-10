@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la?page=##1-10## !! category=wedding"
+    "http://www.mywedding.com/la?page=##1-2## !! category=wedding"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
