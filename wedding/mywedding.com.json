@@ -10,6 +10,7 @@
     "title": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]",
     "category": "$$category",
     "desc": "//div[contains(@class, 'span9')]//div[contains(@class, 'row-fluid')]//p",
+    "imageUrl": "//div[contains(@class, 'span3')]//a//img/@src",
     "phoneNum": "//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[2]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
     "finalUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
