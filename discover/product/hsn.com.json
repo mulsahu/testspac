@@ -1,0 +1,7 @@
+{
+  "name": "product:hsn.com",
+  "model": "com.fp.crawler.model.Product",
+  "fields": {
+	"isSold": "span[class=sold-out]:contains(SOLD OUT)"
+  }
+}

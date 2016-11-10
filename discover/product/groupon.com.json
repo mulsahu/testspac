@@ -1,0 +1,11 @@
+{
+  "name": "product:groupon.com",
+  "model": "com.fp.crawler.model.Product",
+  "fields": {
+    "title" : "h1[id=deal-title]",
+    "regularPrice": "[class=discount-value]",
+    "saleNum" : "[class~=qty-bought]",
+    "imgUrl" : "img[class~=featured-image]/@src",
+	"isSold" : "[class=reason]:contains(No Longer Available),button[class=btn-buy-big buy-button state-not-yet jeff-long-text]:contains(Not yet available),button[class=btn-buy-big buy-button state-sold-out]:contains(Sold Out)"
+  }
+}

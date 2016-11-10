@@ -1,6 +1,0 @@
-{
-  "name": "product:walmart.com",
-  "model": "com.fp.ecommerce.model.Product",
-  "fields": {
-  }
-}

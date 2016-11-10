@@ -1,0 +1,10 @@
+{
+  "name": "product:woot.com",
+  "model": "com.fp.crawler.model.Product",
+  "fields": {
+    "regularPrice": "",
+    "discountPrice": "[property=product:price:amount]/@content, [class=discount] [class=list-price],[class=price-exact] [class=price]",
+    "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url",
+    "isSold": "[class=sold-out-message]:contains(Woot-Off is dead),div[itemprop=offers]:contains(Sold Out)"
+  }
+}
