@@ -1,22 +1,6 @@
 {
   "specs": [
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/base-product.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/amazon.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/bestbuy.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/bhphotovideo.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/ebay.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/groupon.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/newegg.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/sears.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/tanga.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/walmart.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/woot.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/staples.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/article/base-article.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/cdkeys.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/thinkgeek.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/gamestop.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/jinx.com.json"
-	
+    "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/base-product.json",
+    "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/mywedding.com.json"
   ]
 }
