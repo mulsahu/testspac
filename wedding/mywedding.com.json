@@ -2,14 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/wedding-planners !! category=Wedding Planners",
-    "http://www.mywedding.com/la/wedding-cakes !! category=Cakes",
-    "http://www.mywedding.com/la/catering !! category=Caterers",
-    "http://www.mywedding.com/la/wedding-dresses-bridal-shops !! category=Dresses",
-    "http://www.mywedding.com/la/wedding-flowers !! category=Florists",
-    "http://www.mywedding.com/la/bridal-jewelry !! category=Jewelry",
-    "http://www.mywedding.com/la/photographers !! category=Photographers",
-    "http://www.mywedding.com/la/wedding-venues !! category=Venues"
+    "http://www.mywedding.com/la/wedding-planners !! category=Wedding Planners"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
@@ -21,7 +14,7 @@
     "phoneNum": "//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[2]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
     "numOfLike":"//div[contains(@class, 'text-right')]//div[contains(@class, 'love-button-container')]//@data-love-count",
-    "venue":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[1]",
+    "venue":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[1]|//div[contains(@class, 'business-info')]//span[contains(@class, 'standard-text')]",
     "address":"//div[contains(@class, 'business-info')]//a//@data-address",
     "longitude":"//div[contains(@class, 'business-info')]//a//@data-lon",
     "latitude":"//div[contains(@class, 'business-info')]//a//@data-lat",
