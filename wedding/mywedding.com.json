@@ -7,7 +7,7 @@
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
     "siteName": "##www.mywedding.com",
-    "title": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]",
+    "title": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a[contains(@class, 'vendor-link')]",
     "category": "$$category",
     "desc": "//div[contains(@class, 'span9')]//div[contains(@class, 'row-fluid')]//p",
     "imageUrl": "//div[contains(@class, 'span3')]//a//img/@src",
