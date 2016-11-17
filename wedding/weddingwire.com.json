@@ -1,0 +1,21 @@
+{
+  "name":"crawl weddingwire.com deals",
+  "model": "com.fp.wedding.model.Provider",
+  "urls":[
+    "https://www.weddingwire.com/shared/search?cid=15&geo=90001&l=y&page=1 !! category=Wedding Planners"
+  ],
+  "list_xpath":"//div[contains(@class, 'info-row')]//div[contains(@class, 'catalog-vendor-tile')]",
+  "fields":{
+    "siteName": "##www.weddingwire.com",
+    "title": "//a[contains(@class, 'testing-vendor-name')]//div[contains(@class, 'core-ellipsis')]",
+    "category": "$$category",
+    "imageUrl": "//div[contains(@class, 'thumbnail-overlay')]//img/@src",
+    "detailUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",
+	"finalUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",
+    "numOfReview":"//span[contains(@class, 'text-muted')]//span[contains(@class, 'count')] !! ([0-9]+)",
+	"packagePrice":"//div[contains(@class, 'text-muted')]//em[contains(@class, 'strong')] !! ([,0-9]+)",
+    "venue":"//div[contains(@class, 'city-state')]",
+    "address":"//div[contains(@class, 'city-state')]"
+      
+  }
+}
