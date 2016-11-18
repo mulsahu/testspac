@@ -11,7 +11,6 @@
     "category": "$$category",
     "detailUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",    
     "finalUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",
-    "numOfReview":"//span[contains(@class, 'text-muted')]//span[contains(@class, 'count')] !! ([0-9]+)",
-    "address":"//div[contains(@class, 'city-state')]"  
+    "numOfReview":"//span[contains(@class, 'text-muted')]//span[contains(@class, 'count')] !! ([0-9]+)"
   }
 }
