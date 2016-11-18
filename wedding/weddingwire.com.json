@@ -2,7 +2,26 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/shared/search?cid=15&geo=+Los+Angeles&sort=1&view_type=photo&page=1 !! category=Wedding Planners"
+    "https://www.weddingwire.com/shared/search?cid=15&geo=+Los+Angeles&sort=1&page=##1-250## !! category=Wedding Planners",
+	"https://www.weddingwire.com/shared/search?cid=10&geo=+Los+Angeles&l=y&page=##1-250## !! category=Photographers",
+	"https://www.weddingwire.com/shared/search?cid=7&geo=+Los+Angeles&l=y&page=##1-250## !! category=DJ",
+	"https://www.weddingwire.com/shared/search?cid=8&geo=+Los+Angeles&l=y&page=##1-250## !! category=Florists",
+	"https://www.weddingwire.com/shared/search?cid=2&geo=+Los+Angeles&l=y&page=##1-250## !! category=Cakes",
+	"https://www.weddingwire.com/shared/search?cid=14&geo=+Los+Angeles&l=y&page=##1-250## !! category=Videographers",
+	"https://www.weddingwire.com/shared/search?cid=16&geo=+Los+Angeles&l=y&page=##1-250## !! category=Wedding makeup",
+	"https://www.weddingwire.com/shared/search?cid=3&geo=+Los+Angeles&l=y&page=##1-250## !! category=Caterers",
+	"https://www.weddingwire.com/shared/search?cid=12&geo=+Los+Angeles&l=y&page=##1-250## !! category=Wedding rentals",
+	"https://www.weddingwire.com/shared/search?category=Officiant&cid=9&commit=Find+Vendors&geo=+Los+Angeles&l=y&utf8=%E2%9C%93&page=##1-250## !! category=Officiants",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=17&category=Dress+%26+Attire&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Dresses",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=1&category=Band&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Wedding Bands",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=13&category=Transportation&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Limo services",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=18&category=Invitations&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Wedding Invitations",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=4&category=Ceremony+Music&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Live music",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=25&category=Rehearsal+Dinner+Location&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Rehearsal dinner",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=24&category=Lighting+%26+Decor&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Decorations",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=23&category=Travel&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Travel Agents",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=19&category=Jewelry&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Jewelry",
+	"https://www.weddingwire.com/shared/search?utf8=%E2%9C%93&l=y&cid=5&category=Favors+%26+Gifts&geo=+Los+Angeles&commit=Find+Vendors&page=##1-250## !! category=Gifts"
   ],
   "list_xpath":"//div[contains(@class, 'info-row')]//div[contains(@class, 'catalog-vendor-tile')]",
   "fields":{
