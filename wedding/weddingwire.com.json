@@ -9,11 +9,9 @@
     "source": "##www.weddingwire.com",
     "title": "//a[contains(@class, 'testing-vendor-name')]//div[contains(@class, 'core-ellipsis')]",
     "category": "$$category",
-    "imageUrl": "//div[contains(@class, 'thumbnail-overlay')]//img/@src",
     "detailUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",
     "finalUrl": "//a[contains(@class, 'testing-vendor-name')]//@href",
     "numOfReview":"//span[contains(@class, 'text-muted')]//span[contains(@class, 'count')] !! ([0-9]+)",
-    "packagePrice":"//div[contains(@class, 'text-muted')]//em[contains(@class, 'strong')] !! ([,0-9]+)",
     "address":"//div[contains(@class, 'city-state')]"  
   }
 }
