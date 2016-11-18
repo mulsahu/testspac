@@ -17,7 +17,7 @@
     "source": "##www.mywedding.com",
     "title": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a[contains(@class, 'vendor-link')]",
     "category": "$$category",
-    "desc": "//div[contains(@class, 'row-fluid')]//p[contains(@class, 'vendor-description')]",
+    "description": "//div[contains(@class, 'row-fluid')]//p[contains(@class, 'vendor-description')]",
     "imageUrl": "//div[contains(@class, 'span3')]//a//img/@src",
     "phoneNum": "//div[contains(@class, 'business-info')]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
