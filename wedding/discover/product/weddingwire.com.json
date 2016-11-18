@@ -1,0 +1,7 @@
+{
+  "name": "product:mywedding.com",
+  "model": "com.fp.crawler.model.Product",
+  "fields": {
+	"imageUrl" : "div[class=dz-image profile-idea] > img/@src"
+  }
+}
