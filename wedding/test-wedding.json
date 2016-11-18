@@ -11,7 +11,7 @@
     "category": "$$category",
     "description": "//div[contains(@class, 'row-fluid')]//p[contains(@class, 'vendor-description')]",
     "phoneNum": "//div[contains(@class, 'business-info')]//span/@data-phone",
-    "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
+    "detailUrl": "//div[contains(@class, 'business-info')]//a[contains(@class, 'vendor-link')]/@href",
     "numOfLike":"//div[contains(@class, 'text-right')]//div[contains(@class, 'love-button-container')]//@data-love-count",
     "city":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[1]|//div[contains(@class, 'business-info')]//span[contains(@class, 'standard-text')]",
     "address":"//div[contains(@class, 'business-info')]//a//@data-address",
