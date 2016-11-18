@@ -2,7 +2,7 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/shared/search?cid=15&geo=+Los+Angeles&sort=1&view_type=photo&page=##1-250## !! category=Wedding Planners"
+    "https://www.weddingwire.com/shared/search?cid=15&geo=+Los+Angeles&sort=1&view_type=photo&page=##1-5## !! category=Wedding Planners"
   ],
   "list_xpath":"//div[contains(@class, 'info-row')]//div[contains(@class, 'catalog-vendor-tile')]",
   "fields":{
