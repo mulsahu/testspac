@@ -6,7 +6,6 @@
 	"description": "meta[name=description]/@content,[property=og:description]/@content",
     	"rating": "[property=og:rating]/@content,[itemprop!=reviewRating] [itemprop=ratingValue]",
     	"numOfReview": "[itemprop=ratingCount]/@content,[itemprop=ratingCount],[itemprop=reviewCount]",
-    	"siteName": "[property=og:site_name]/@content",
     	"imageUrl": "[property=og:image]/@content",
 	"thumbnailUrl": "[property=og:image]/@content",
     	"address": "[property=place:street_address]/@content",
