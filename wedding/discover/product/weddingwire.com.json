@@ -2,8 +2,8 @@
   "name": "product:weddingwire.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-	"phoneNum" : "div[id=js-phone-click-tracking-vendor-present] span",
-	"attachUrls" : "div[id=js-cover-photo-carousel] > li img/@src",
+	"phoneNum" : "span[id=js-phone-click-tracking-vendor-present] span",
+	"attachUrls" : "div[id=js-cover-photo-carousel] li img/@src",
 	"website" : "div[class=col-xs-12 text-muted] > a/@href"
   }
 }
