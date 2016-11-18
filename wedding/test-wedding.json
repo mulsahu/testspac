@@ -6,7 +6,7 @@
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
-    "siteName": "##www.mywedding.com",
+    "source": "##www.mywedding.com",
     "title": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a[contains(@class, 'vendor-link')]",
     "category": "$$category",
     "desc": "//div[contains(@class, 'row-fluid')]//p[contains(@class, 'vendor-description')]",
@@ -14,7 +14,7 @@
     "phoneNum": "//div[contains(@class, 'business-info')]//span/@data-phone",
     "detailUrl": "//div[contains(@class, 'business-info')]//div[contains(@class, 'business-name')]//a/@href",
     "numOfLike":"//div[contains(@class, 'text-right')]//div[contains(@class, 'love-button-container')]//@data-love-count",
-    "venue":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[1]|//div[contains(@class, 'business-info')]//span[contains(@class, 'standard-text')]",
+    "city":"//div[contains(@class, 'business-info')]//ul[contains(@class, 'contact-links')]//li[1]|//div[contains(@class, 'business-info')]//span[contains(@class, 'standard-text')]",
     "address":"//div[contains(@class, 'business-info')]//a//@data-address",
     "longitude":"//div[contains(@class, 'business-info')]//a//@data-lon",
     "latitude":"//div[contains(@class, 'business-info')]//a//@data-lat",
