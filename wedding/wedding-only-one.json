@@ -2,9 +2,11 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/wedding-planners?page=##1-50## !! category=Wedding Planners",
-  "http://www.mywedding.com/la/wedding-cakes?page=##1-50## !! category=Cakes",
-  "http://www.mywedding.com/la/catering?page=##1-50## !! category=Caterers"
+    "http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-50## !! category=Dresses",
+    "http://www.mywedding.com/la/wedding-flowers?page=##1-50## !! category=Florists",
+    "http://www.mywedding.com/la/bridal-jewelry?page=##1-50## !! category=Jewelry",
+    "http://www.mywedding.com/la/bridesmaid-gifts?page=##1-50## !! category=bridesmaid-gifts",
+    "http://www.mywedding.com/la/photographers?page=##1-50## !! category=Photographers"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
