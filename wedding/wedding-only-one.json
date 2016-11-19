@@ -2,8 +2,9 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/accommodations?page=##1-50## !! category=Accommodations",
-    "http://www.mywedding.com/la/classic-car-rental?page=##1-50## !! category=Classic car"
+    "http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-50## !! category=Dresses", 
+    "http://www.mywedding.com/la/wedding-flowers?page=##1-50## !! category=Florists",
+    "http://www.mywedding.com/la/bridal-jewelry?page=##1-50## !! category=Jewelry"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
