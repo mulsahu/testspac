@@ -2,8 +2,11 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-   "http://www.mywedding.com/la/bridesmaid-gifts?page=##1-50## !! category=bridesmaid-gifts",
-   "http://www.mywedding.com/la/photographers?page=##1-50## !! category=Photographers"
+   "http://www.mywedding.com/la/entertainment?page=##1-50## !! category=Entertainment",
+   "http://www.mywedding.com/la/wedding-gown-preservation?page=##1-50## !! category=Gown preservation",
+  "http://www.mywedding.com/la/groomsmen-gifts?page=##1-50## !! category=Groomsmen gifts",
+  "http://www.mywedding.com/la/wedding-hair?page=##1-50## !! category=Hair Stylists",
+  "http://www.mywedding.com/la/health-beauty?page=##1-50## !! category=Beauty"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
