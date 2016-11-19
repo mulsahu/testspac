@@ -2,9 +2,9 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/dance-lessons?page=##1-50## !! category=Dance lessons",
-    "http://www.mywedding.com/la/wedding-decorations?page=##1-50## !! category=Decorations",
-    "http://www.mywedding.com/la/dj?page=##1-50## !! category=DJ"
+    "http://www.mywedding.com/la/wedding-planners?page=##1-50## !! category=Wedding Planners",
+  "http://www.mywedding.com/la/wedding-cakes?page=##1-50## !! category=Cakes",
+  "http://www.mywedding.com/la/catering?page=##1-50## !! category=Caterers"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
