@@ -2,8 +2,8 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-florists/803A-8-rca.html?page=##1-15## !! category=Florists",
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-cakes/803A-2-rca.html?page=##1-6## !! category=Cakes"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-videographers/803A-14-rca.html?page=##1-14## !! category=Videographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-beauty-health/803A-16-rca.html?page=##1-24## !! category=Wedding makeup"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
