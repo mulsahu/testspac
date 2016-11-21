@@ -2,10 +2,11 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-florists/803A-8-rca.html?page=##1-15## !! category=Florists",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-videographers/803A-14-rca.html?page=##1-14## !! category=Videographers",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-caterers/803A-3-rca.html?page=##1-12## !! category=Caterers",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-limos/803A-13-rca.html?page=##1-10## !! category=Limo services"
+   "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-invitations/803A-18-rca.html?page=##1-10## !! category=Wedding Invitations",
+  "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-jewelers/803A-19-rca.html?page=##1-10## !! category=Jewelry",
+  "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-favors/803A-5-rca.html?page=##1-10## !! category=Favors & Gifts",
+  "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-cakes/803A-2-rca.html?page=##1-6## !! category=Cakes",
+  "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-bands/803A-1-rca.html?page=##1-6## !! category=Wedding Bands"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
