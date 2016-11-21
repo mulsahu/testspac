@@ -2,9 +2,10 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-bands/803A-1-rca.html?page=##1-6## !! category=Wedding Bands",
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-officiants/803A-9-rca.html?page=##1-6## !! category=Officiants",
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-dresses/803A-17-rca.html?page=##1-10## !! category=Dresses"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/lighting-decor/803A-24-rca.html?page=##1-5## !! category=Decorations",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/travel-agents/803A-23-rca.html?page=##1-2## !! category=Travel Agents",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-ceremony-music/803A-4-rca.html?page=##1-10## !! category=Musicians",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/rehearsal-dinner-locations/803A-25-rca.html?page=##1-5## !! category=Rehearsal dinner"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
