@@ -2,8 +2,9 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-caterers/803A-3-rca.html?page=##1-12## !! category=Caterers",
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-event-rentals/803A-12-rca.html?page=##1-16## !! category=Wedding rentals"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-limos/803A-13-rca.html?page=##1-10## !! category=Limo services",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-invitations/803A-18-rca.html?page=##1-10## !! category=Wedding Invitations",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-jewelers/803A-19-rca.html?page=##1-10## !! category=Jewelry"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
