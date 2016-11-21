@@ -2,7 +2,7 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-planners/803A-15-rca.html?page=##1-31## !! category=Wedding Planners"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-djs/803A-7-rca.html?page=##1-15## !! category=DJ"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
