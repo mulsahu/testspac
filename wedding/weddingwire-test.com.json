@@ -2,8 +2,9 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-favors/803A-5-rca.html?page=##1-10## !! category=Favors & Gifts",
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-venues/803A-11-rca.html?page=##1-21## !! category=Venues"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-bands/803A-1-rca.html?page=##1-6## !! category=Wedding Bands",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-officiants/803A-9-rca.html?page=##1-6## !! category=Officiants",
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-dresses/803A-17-rca.html?page=##1-10## !! category=Dresses"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
