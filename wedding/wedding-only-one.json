@@ -2,8 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/wedding-makeup?page=##1-102## !! category=Wedding makeup",
-    "http://www.mywedding.com/la/accommodations?page=##1-591## !! category=Accommodations"
+    "http://www.mywedding.com/la/rehearsal-dinner?page=##1-600## !! category=Rehearsal dinner"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
