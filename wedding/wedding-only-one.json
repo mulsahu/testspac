@@ -2,8 +2,8 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/wedding-flowers?page=##1-161## !! category=Florists",
-    "http://www.mywedding.com/la/wedding-cakes?page=##1-144## !! category=Cakes"
+    "http://www.mywedding.com/la/wedding-invitations?page=##1-86## !! category=Wedding Invitations",
+    "http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-118## !! category=Dresses"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
