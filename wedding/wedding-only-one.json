@@ -2,10 +2,10 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-  "http://www.mywedding.com/la/catering?page=##1-226## !! category=Caterers",
-  "http://www.mywedding.com/la/officiants?page=##1-87## !! category=Officiants",
-  "http://www.mywedding.com/la/wedding-rentals?page=##1-106## !! category=Wedding rentals",
-  "http://www.mywedding.com/la/wedding-favors?page=##1-41## !! category=Favors" 
+  "http://www.mywedding.com/la/dj?page=##1-124## !! category=DJ",
+  "http://www.mywedding.com/la/wedding-hair?page=##1-82## !! category=Hair Stylists",
+  "http://www.mywedding.com/la/wedding-makeup?page=##1-102## !! category=Wedding makeup",
+  "http://www.mywedding.com/la/accommodations?page=##1-591## !! category=Accommodations"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
