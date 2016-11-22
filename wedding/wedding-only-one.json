@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/premarital-counseling?page=##1-24## !! category=Premarital counseling"
+"http://www.mywedding.com/la/services?page=##1-52## !! category=Unique Services"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
