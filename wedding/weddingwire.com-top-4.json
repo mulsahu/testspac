@@ -2,11 +2,11 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##1-58## !! category=Photographers",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-planners/803A-15-rca.html?page=##1-31## !! category=Wedding Planners",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-dresses/803A-17-rca.html?page=##1-10## !! category=Dresses",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-venues/803A-11-rca.html?page=##1-21## !! category=Venues",
-"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-djs/803A-7-rca.html?page=##1-15## !! category=DJ"
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-planners/803A-15-rca.html !! category=Wedding Planners",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-dresses/803A-17-rca.html !! category=Dresses",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-venues/803A-11-rca.html !! category=Venues",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-djs/803A-7-rca.html !! category=DJ"
   ],
   "list_xpath":"//div[contains(@class, 'row section')]//div[contains(@class, 'catalog-vendor-tile')]",
   "fields":{
