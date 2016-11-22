@@ -2,9 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/bachelorette-party?page=##1-13## !! category=Bachelorette Party",
-"http://www.mywedding.com/la/wedding-party-gifts?page=##1-32## !! category=Party gifts", 
-"http://www.mywedding.com/la/mother-of-the-bride?page=##1-27## !! category=Mother of the bride",
+    "http://www.mywedding.com/la/mother-of-the-bride?page=##1-27## !! category=Mother of the bride",
 "http://www.mywedding.com/la/shuttle-services?page=##1-18## !! category=Shuttle services", 
 "http://www.mywedding.com/la/limo-services?page=##1-50## !! category=Limo services",
 "http://www.mywedding.com/la/honeymoon?page=##1-25## !! category=Honeymoon"
