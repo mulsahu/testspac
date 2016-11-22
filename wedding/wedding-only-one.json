@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/entertainment?page=##1-18## !! category=Entertainment"
+"http://www.mywedding.com/la/dance-lessons?page=##1-32## !! category=Dance lessons"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
