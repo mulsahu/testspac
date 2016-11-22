@@ -1,0 +1,18 @@
+{
+  "name":"crawl weddingwire.com deals",
+  "model": "com.fp.wedding.model.Provider",
+  "urls":[
+   "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-planners/803A-15-rca.html?page=##1-31## !! category=Wedding Planners",
+	"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-beauty-health/803A-16-rca.html?page=##1-24## !! category=Wedding makeup",
+	"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-dresses/803A-17-rca.html?page=##1-5## !! category=Dresses"
+  ],
+  "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
+  "fields":{
+    "source": "##www.weddingwire.com",
+    "title": "//div[contains(@class,'header-large vendor-name')]",
+    "category": "$$category",
+    "detailUrl": "//div[contains(@class,'header-large vendor-name')]//a/@href",    
+    "finalUrl": "//div[contains(@class,'header-large vendor-name')]//a/@href",
+    "numOfReview":"//div[contains(@class,'vendor-tile-info-component')]//span[contains(@class, 'count')] !! ([0-9]+)"
+  }
+}
