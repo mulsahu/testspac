@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
- "http://www.mywedding.com/la/catering?page=##1-226## !! category=Caterers"
+ "http://www.mywedding.com/la/officiants?page=##1-87## !! category=Officiants"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
