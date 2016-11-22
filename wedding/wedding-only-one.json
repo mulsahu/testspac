@@ -2,8 +2,9 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-   "http://www.mywedding.com/la/wedding-ceremony-sites?page=##1-273## !! category=Wedding ceremony sites",
-  "http://www.mywedding.com/la/wedding-venues?page=##1-710## !! category=Wedding venues"
+  "http://www.mywedding.com/la/wedding-cakes?page=##1-144## !! category=Cakes",
+  "http://www.mywedding.com/la/wedding-invitations?page=##1-86## !! category=Wedding Invitations",
+  "http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-118## !! category=Dresses"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
