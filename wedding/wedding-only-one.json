@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-   "http://www.mywedding.com/la/photographers?page=##1-465## !! category=Photographers"
+   "http://www.mywedding.com/la/photographers?page=##1-466## !! category=Photographers"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
