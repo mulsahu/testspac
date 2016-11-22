@@ -2,9 +2,13 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-    "http://www.mywedding.com/la/bridesmaid-gifts?page=##1-23## !! category=bridesmaid-gifts",
-    "http://www.mywedding.com/la/bridal-jewelry?page=##1-70## !! category=Jewelry",
-    "http://www.mywedding.com/la/health-beauty?page=##1-88## !! category=Beauty"
+    "http://www.mywedding.com/la/bachelorette-party?page=##1-13## !! category=Bachelorette Party",
+"http://www.mywedding.com/la/wedding-party-gifts?page=##1-32## !! category=Party gifts", 
+"http://www.mywedding.com/la/mother-of-the-bride?page=##1-27## !! category=Mother of the bride",
+"http://www.mywedding.com/la/shuttle-services?page=##1-18## !! category=Shuttle services", 
+"http://www.mywedding.com/la/limo-services?page=##1-50## !! category=Limo services",
+"http://www.mywedding.com/la/honeymoon?page=##1-25## !! category=Honeymoon"
+
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
