@@ -1,0 +1,16 @@
+{
+  "name":"crawl weddingwire.com deals",
+  "model": "com.fp.wedding.model.Provider",
+  "urls":[
+    "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=1 !! category=photographers"
+  ],
+  "list_xpath":"//div[contains(@class, 'row section')]//div[contains(@class, 'catalog-vendor-tile')]",
+  "fields":{
+    "source": "##www.weddingwire.com",
+    "title": "//div[contains(@class, 'vendor-info')]//a//div",
+    "category": "$$category",
+    "detailUrl": "//div[contains(@class, 'vendor-info')]//a/@href",    
+    "finalUrl": "//div[contains(@class, 'vendor-info')]//a/@href",
+    "numOfReview":"//div[contains(@class, 'vendor-info')]//span[contains(@class,'text-muted')]//span[contains(@class,'count')] !! ([0-9]+)"
+  }
+}
