@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/wedding-favors?page=##1-41## !! category=Favors"
+"http://www.mywedding.com/la/dj?page=##1-124## !! category=DJ"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
