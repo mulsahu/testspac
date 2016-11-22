@@ -3,9 +3,7 @@
   "model": "com.fp.wedding.model.Provider",
   "urls":[
    "http://www.mywedding.com/la/wedding-ceremony-sites?page=##1-273## !! category=Wedding ceremony sites",
-  "http://www.mywedding.com/la/wedding-venues?page=##1-710## !! category=Wedding venues",
-  "http://www.mywedding.com/la/photographers?page=##1-465## !! category=Photographers",
-  "http://www.mywedding.com/la/wedding-planners?page=##1-175## !! category=Wedding Planners"
+  "http://www.mywedding.com/la/wedding-venues?page=##1-710## !! category=Wedding venues"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
