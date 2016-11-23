@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-118## !! category=Dresses"
+"http://www.mywedding.com/la/bachelorette-party?page=##1-13## !! category=Bachelorette Party"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
