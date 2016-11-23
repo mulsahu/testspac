@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/wedding-attire?page=##3-31## !! category=Wedding attire"
+"http://www.mywedding.com/la/wedding-attire?page=##1-31## !! category=Wedding attire"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
