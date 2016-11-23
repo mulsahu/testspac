@@ -2,7 +2,12 @@
   "name":"crawl weddingwire.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-   "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##1-59## !! category=Photographers"
+   "https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##1-10## !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##11-20## !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##21-30## !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##31-40## !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##41-50## !! category=Photographers",
+"https://www.weddingwire.com/c/ca-california/los-angeles-county/wedding-photographers/803A-10-rca.html?page=##51-59## !! category=Photographers"
   ],
   "list_xpath":"//div[contains(@class, 'row')]//div[contains(@class, 'catalog-vendor-tile panel')]",
   "fields":{
