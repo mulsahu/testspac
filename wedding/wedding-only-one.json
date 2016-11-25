@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/wedding-hair?page=##1-82## !! category=Hair Stylists"
+"http://www.mywedding.com/la/wedding-makeup?page=##1-102## !! category=Wedding makeup"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
