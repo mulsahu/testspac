@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/officiants?page=##1-87## !! category=Officiants"
+"http://www.mywedding.com/la/wedding-rentals?page=##1-106## !! category=Wedding rentals"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
