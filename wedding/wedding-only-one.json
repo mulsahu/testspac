@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/mother-of-the-bride?page=##1-27## !! category=Mother of the bride"
+"http://www.mywedding.com/la/wedding-dresses-bridal-shops?page=##1-118## !! category=Dresses"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
