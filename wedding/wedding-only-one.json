@@ -2,7 +2,7 @@
   "name":"crawl mywedding.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"http://www.mywedding.com/la/wedding-decorations?page=##1-47## !! category=Decorations"
+"http://www.mywedding.com/la/tuxedo-suits?page=##1-49## !! category=Tuxedo suits"
   ],
   "list_xpath":"//div[contains(@id, 'container-listings')]//div[contains(@class, 'search-listing')]",
   "fields":{
