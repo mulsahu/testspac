@@ -3,7 +3,7 @@
   "model": "com.fp.crawler.model.Product",
   "fields": {
     "attachUrls" : "ul[class=carousel-hero-list list-unstyled] li img/@data-src",
-    "phoneNum" : "div/@data-analytics-vendor-formatted-phone-number",
+    "phoneNum" : "div[class=hide]/@data-analytics-vendor-formatted-phone-number",
     "website" : "div/@data-analytics-vendor-url",
     "address" : "div[class=address]",
     "city" : "div/@data-analytics-vendor-city",
