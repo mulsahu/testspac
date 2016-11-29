@@ -2,6 +2,7 @@
   "specs": [
     "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/base-product.json",
     "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/mywedding.com.json",
-    "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/weddingwire.com.json"
+    "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/weddingwire.com.json",
+    "https://raw.githubusercontent.com/mulsahu/testspac/master/wedding/discover/product/theknot.com.json"
   ]
 }
