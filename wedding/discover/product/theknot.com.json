@@ -4,7 +4,7 @@
   "fields": {
     "attachUrls" : "ul[class=carousel-hero-list list-unstyled] li img/@data-src",
     "phoneNum" : "div[class=hide]/@data-analytics-vendor-formatted-phone-number",
-    "website" : "div/@data-analytics-vendor-url",
+    "website" : "a[id=website-link]/@href",
     "address" : "div[class=address]",
     "city" : "div/@data-analytics-vendor-city",
     "state" : "div/@data-analytics-vendor-state",
