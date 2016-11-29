@@ -3,12 +3,12 @@
   "model": "com.fp.crawler.model.Product",
   "fields": {
     "attachUrls" : "ul[class=carousel-hero-list list-unstyled] li img/@data-src",
-    "phoneNum" : "div[class=phone] a[itemprop=telephone] !! ([0-9]+)",
+    "phoneNum" : "div[class=phone] a[itemprop=telephone] !! [0-9]+",
     "website" : "a[id=website-link]/@href",
     "address" : "div[class=address]",
     "city" : "div/@data-analytics-vendor-city",
     "state" : "div/@data-analytics-vendor-state",
-    "zipcode" : "div/@data-analytics-vendor-zip",
+    "zipcode" : "div/@data-analytics-vendor-zip !! [0-9]+",
     "rating" : "div[id=rating] meta/@content"
   }
 }
