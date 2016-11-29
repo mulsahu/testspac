@@ -2,7 +2,7 @@
   "name": "product:theknot.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "attachUrls" : "ul[class=carousel-hero-list] li img/@src || ul[class=carousel-hero-list] li img/@data-src",
+    "attachUrls" : "ul[class=carousel-hero-list] li img/@data-src",
     "phoneNum" : "div/@data-analytics-vendor-formatted-phone-number",
     "website" : "div/@data-analytics-vendor-url",
     "address" : "div[class=address]",
