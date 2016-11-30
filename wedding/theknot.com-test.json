@@ -2,8 +2,7 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"https://www.theknot.com/marketplace/bar-services-los-angeles-ca?offset=0 !! category=Bar Services",
-	"https://www.theknot.com/marketplace/bar-services-los-angeles-ca?offset=30 !! category=Bar Services"
+"https://www.theknot.com/marketplace/boudoir-photographers-los-angeles-ca?offset=0 !! category=Boudoir Photographers"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
