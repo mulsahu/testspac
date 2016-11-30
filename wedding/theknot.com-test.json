@@ -2,9 +2,8 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"https://www.theknot.com/marketplace/wedding-decor-shops-los-angeles-ca?offset=0 !! category=Decorations",
-	"https://www.theknot.com/marketplace/wedding-decor-shops-los-angeles-ca?offset=30 !! category=Decorations",
-	"https://www.theknot.com/marketplace/wedding-decor-shops-los-angeles-ca?offset=60 !! category=Decorations"
+"https://www.theknot.com/marketplace/fitness-los-angeles-ca?offset=0 !! category=Fitness",
+	"https://www.theknot.com/marketplace/fitness-los-angeles-ca?offset=30 !! category=Fitness"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
