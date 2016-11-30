@@ -2,14 +2,19 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=0 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=30 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=60 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=90 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=120 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=150 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=180 !! category=Photo Booth Rentals",
-"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=210 !! category=Photo Booth Rentals"
+	"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=0 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=30 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=60 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=90 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=120 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=150 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=180 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=210 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=240 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=270 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=300 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=330 !! category=Bridal Salons",
+"https://www.theknot.com/marketplace/bridal-salons-los-angeles-ca?offset=360 !! category=Bridal Salons"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
