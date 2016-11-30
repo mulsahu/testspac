@@ -1,0 +1,16 @@
+{
+  "name":"crawl theknot.com deals",
+  "model": "com.fp.wedding.model.Provider",
+  "urls":[
+    "https://www.theknot.com/marketplace/wedding-reception-venues-los-angeles-ca?offset=0 !! category=reception"
+  ],
+  "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
+  "fields":{
+    "source": "##www.theknot.com",
+    "title": "//div[contains(@class, 'panel-heading')]//h2[contains(@data-id, 'search-card-vendor-name')]",
+    "category": "$$category",
+    "imageUrl": "//div[contains(@class, 'span3')]//a//img/@src",
+    "detailUrl": "//div[contains(@class, 'photo-card')]//a/@href",
+    "finalUrl": "//div[contains(@class, 'photo-card')]//a/@href"    
+  }
+}
