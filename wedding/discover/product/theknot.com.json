@@ -3,12 +3,12 @@
   "model": "com.fp.crawler.model.Product",
   "fields": {
     "attachUrls" : "ul[class=carousel-hero-list list-unstyled] li img/@data-src",
-    "phoneNum" : "div/@data-analytics-vendor-formatted-phone-number",
+    "phoneNum" : "div/@data-analytics-vendor-formatted-phone-number !! [A-Z0-9a-z]",
     "website" : "a[id=website-link]/@href",
     "address" : "div[class=address]",
-    "city" : "div/@data-analytics-vendor-city",
-    "state" : "div/@data-analytics-vendor-state",
-    "zipcode" : "div/@data-analytics-vendor-zip",
+    "city" : "div/@data-analytics-vendor-city !! [A-Z0-9a-z]",
+    "state" : "div/@data-analytics-vendor-state !! [A-Z0-9a-z]",
+    "zipcode" : "div/@data-analytics-vendor-zip !! [A-Z0-9a-z]",
     "rating" : "div[id=vendor-info] meta/@content"
   }
 }
