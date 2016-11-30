@@ -2,10 +2,9 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"https://www.theknot.com/marketplace/wedding-designers-los-angeles-ca?offset=0 !! category=Wedding Designers",
-"https://www.theknot.com/marketplace/wedding-designers-los-angeles-ca?offset=30 !! category=Wedding Designers",
-"https://www.theknot.com/marketplace/wedding-designers-los-angeles-ca?offset=60 !! category=Wedding Designers",
-"https://www.theknot.com/marketplace/wedding-designers-los-angeles-ca?offset=90 !! category=Wedding Designers"
+"https://www.theknot.com/marketplace/wedding-jewelry-stores-los-angeles-ca?offset=0 !! category=Jewelry",
+	"https://www.theknot.com/marketplace/wedding-jewelry-stores-los-angeles-ca?offset=30 !! category=Jewelry",
+	"https://www.theknot.com/marketplace/wedding-jewelry-stores-los-angeles-ca?offset=60 !! category=Jewelry"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
