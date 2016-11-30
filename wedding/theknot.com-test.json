@@ -2,7 +2,8 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"https://www.theknot.com/marketplace/ceremony-accessories-los-angeles-ca?offset=0 !! category=Ceremony Accessories"
+"https://www.theknot.com/marketplace/wedding-dance-lessons-los-angeles-ca?offset=0 !! category=Dance Lessons",
+	"https://www.theknot.com/marketplace/wedding-dance-lessons-los-angeles-ca?offset=30 !! category=Dance Lessons"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
