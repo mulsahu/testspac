@@ -2,7 +2,7 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-"https://www.theknot.com/marketplace/service-staff-los-angeles-ca?offset=0 !! category=Service Staff"
+"https://www.theknot.com/marketplace/technologies-los-angeles-ca?offset=0 !! category=Technology"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
