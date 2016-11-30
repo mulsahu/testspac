@@ -2,12 +2,7 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=0 !! category=Wedding Bands",
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=30 !! category=Wedding Bands",
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=60 !! category=Wedding Bands",
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=90 !! category=Wedding Bands",
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=120 !! category=Wedding Bands",
-	"https://www.theknot.com/marketplace/live-wedding-bands-los-angeles-ca?offset=150 !! category=Wedding Bands"
+	"https://www.theknot.com/marketplace/vacation-homes-villas-los-angeles-ca?offset=0 !! category=Vacation Homes"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
