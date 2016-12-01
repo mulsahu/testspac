@@ -2,9 +2,8 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/wedding-travel-agents-los-angeles-ca?offset=0 !! category=Travel Agents",
-	"https://www.theknot.com/marketplace/wedding-travel-agents-los-angeles-ca?offset=30 !! category=Travel Agents",
-	"https://www.theknot.com/marketplace/wedding-travel-agents-los-angeles-ca?offset=60 !! category=Travel Agents"	
+		"https://www.theknot.com/marketplace/wedding-lighting-los-angeles-ca?offset=0 !! category=Lighting",
+	"https://www.theknot.com/marketplace/wedding-lighting-los-angeles-ca?offset=30 !! category=Lighting"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
