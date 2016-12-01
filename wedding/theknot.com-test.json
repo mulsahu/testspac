@@ -2,11 +2,18 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=0 !! category=Desserts",
-	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=30 !! category=Desserts",
-	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=60 !! category=Desserts",
-	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=90!! category=Desserts",
-	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=120 !! category=Desserts"
+	"https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=0 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=30 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=60 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=90 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=120 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=150 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=180 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=210 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=240 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=270 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=300 !! category=Caterers",
+	  "https://www.theknot.com/marketplace/catering-los-angeles-ca?offset=330 !! category=Caterers"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
