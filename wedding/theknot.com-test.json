@@ -2,11 +2,14 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/wedding-officiants-los-angeles-ca?offset=0 !! category=Officiants",
-	"https://www.theknot.com/marketplace/wedding-officiants-los-angeles-ca?offset=30 !! category=Officiants",
-	"https://www.theknot.com/marketplace/wedding-officiants-los-angeles-ca?offset=60 !! category=Officiants",
-	"https://www.theknot.com/marketplace/wedding-officiants-los-angeles-ca?offset=90 !! category=Officiants",
-	"https://www.theknot.com/marketplace/wedding-officiants-los-angeles-ca?offset=120 !! category=Officiants"
+	"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=0 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=30 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=60 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=90 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=120 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=150 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=180 !! category=Photo Booth Rentals",
+"https://www.theknot.com/marketplace/wedding-photo-booth-rentals-los-angeles-ca?offset=210 !! category=Photo Booth Rentals"
 
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
