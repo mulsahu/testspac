@@ -2,15 +2,10 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-		"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=0 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=30 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=60 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=90 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=120 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=150 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=180 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=210 !! category=Wedding Ceremony Venues",
-	"https://www.theknot.com/marketplace/wedding-ceremony-venues-los-angeles-ca?offset=240 !! category=Wedding Ceremony Venues"	  
+		"https://www.theknot.com/marketplace/bridal-accessory-shops-los-angeles-ca?offset=0 !! category=Accessories",
+	"https://www.theknot.com/marketplace/bridal-accessory-shops-los-angeles-ca?offset=30 !! category=Accessories",
+	"https://www.theknot.com/marketplace/bridal-accessory-shops-los-angeles-ca?offset=60 !! category=Accessories",
+	"https://www.theknot.com/marketplace/bridal-accessory-shops-los-angeles-ca?offset=90 !! category=Accessories"  
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
