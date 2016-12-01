@@ -2,7 +2,7 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-		"https://www.theknot.com/marketplace/newlywed-services-los-angeles-ca?offset=0 !! category=Newlywed Services"
+		"https://www.theknot.com/marketplace/registry-services-los-angeles-ca?offset=0 !! category=Registry Services"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
