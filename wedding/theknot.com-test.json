@@ -2,15 +2,13 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=0 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=30 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=60 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=90 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=120 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=150 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=180 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=210 !! category=Wedding Invitations",
-"https://www.theknot.com/marketplace/invitations-los-angeles-ca?offset=240 !! category=Wedding Invitations"
+	"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=0 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=30 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=60 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=90 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=120 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=150 !! category=Rehearsal dinner",
+"https://www.theknot.com/marketplace/rehearsal-dinners-bridal-showers-los-angeles-ca?offset=180 !! category=Rehearsal dinner"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
