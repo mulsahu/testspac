@@ -2,15 +2,15 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=0 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=30 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=60 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=90 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=120 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=150 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=180 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=210 !! category=Cakes",
-"https://www.theknot.com/marketplace/wedding-cake-bakeries-los-angeles-ca?offset=240 !! category=Cakes"
+	"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=0 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=30 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=60 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=90 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=120 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=150 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=180 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=210 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=240 !! category=Jewelers"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
