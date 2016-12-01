@@ -2,11 +2,11 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/transportation-services-los-angeles-ca?offset=0 !! category=Transportation", 
-	"https://www.theknot.com/marketplace/transportation-services-los-angeles-ca?offset=30 !! category=Transportation",
-	"https://www.theknot.com/marketplace/transportation-services-los-angeles-ca?offset=60 !! category=Transportation",
-	"https://www.theknot.com/marketplace/transportation-services-los-angeles-ca?offset=90 !! category=Transportation",
-	"https://www.theknot.com/marketplace/transportation-services-los-angeles-ca?offset=120 !! category=Transportation"
+	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=0 !! category=Desserts",
+	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=30 !! category=Desserts",
+	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=60 !! category=Desserts",
+	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=90!! category=Desserts",
+	"https://www.theknot.com/marketplace/desserts-los-angeles-ca?offset=120 !! category=Desserts"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
