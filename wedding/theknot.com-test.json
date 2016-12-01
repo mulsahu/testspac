@@ -2,7 +2,7 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/boudoir-photographers-los-angeles-ca?offset=0 !! category=Boudoir Photographers"
+	"https://www.theknot.com/marketplace/ceremony-accessories-los-angeles-ca?offset=0 !! category=Ceremony Accessories"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
