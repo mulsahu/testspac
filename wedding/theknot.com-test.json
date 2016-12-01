@@ -2,13 +2,15 @@
   "name":"crawl theknot.com deals",
   "model": "com.fp.wedding.model.Provider",
   "urls":[	
-	"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=0 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=30 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=60 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=90 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=120 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=150 !! category=Favors & Gifts",
-"https://www.theknot.com/marketplace/favors-los-angeles-ca?offset=180 !! category=Favors & Gifts"
+	"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=0 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=30 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=60 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=90 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=120 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=150 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=180 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=210 !! category=Jewelers",
+"https://www.theknot.com/marketplace/jewelers-los-angeles-ca?offset=240 !! category=Jewelers"
   ],
   "list_xpath":"//div[contains(@id, 'vendor-list')]//div[contains(@class, 'card-container')]",
   "fields":{
